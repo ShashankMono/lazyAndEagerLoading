@@ -1,0 +1,53 @@
+[
+  {
+    "ContainingType": "LazyAndEagerLoading.Controllers.LazyAnEagerController",
+    "Method": "GetAuthor",
+    "RelativePath": "Author/lazyLoading",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LazyAndEagerLoading.Controllers.LazyAnEagerController",
+    "Method": "GetBooks",
+    "RelativePath": "Books/lazyLoading",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LazyAndEagerLoading.Controllers.LazyAnEagerController",
+    "Method": "Get",
+    "RelativePath": "eagerLoading",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LazyAndEagerLoading.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LazyAndEagerLoading.WeatherForecast, LazyAndEagerLoading, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
